@@ -1,0 +1,1504 @@
+<event name="VehicleKamaz_Spawn">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="Kamaz"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazFuel"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCovered"/>
+        </children>
+	</event>
+    <event name="InfectedFidovStalkerCreatures4">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_3"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_4"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_5"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_6"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_7"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_8"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_9"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_10"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures3">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_ZMB_Stalker"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ZMB_Stalker_Top"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Ruined"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Brain"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork_Boss"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_White"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SlepDog_Zmb"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures2">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_Bronza"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SlepDog_red"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_RuinedZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_PseDOG"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_PseDOG_white"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kontroler"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_Kontroler_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_EXO_ZMB_Ruined_dolg"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures5">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan_fears"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Forester_aiZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures6">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_Wolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_AIwolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Tuskan"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SnorkW"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Standart"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures7">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Invz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Plot_Mob_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Plot_Mob_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_MONOLIT_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_MONOLIT_ZMB2"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_BolotTvar"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS_Dark"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_KrovoSOS_invisible"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures8">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Green"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Light"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Cat_Baun_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kaban_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Kaban"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_DogZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_ClearNeboType2_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ClearNeboType2green_ZMB"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures9">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovososType2_Albinos"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Brown"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovososType2_Volkodav"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Volkodav_Ser"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Izlome"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_WolfZmb_black"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures10">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SidorCap_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Sidor_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Plash_Zombie"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures11">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_3"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_4"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_5"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_6"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_7"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_8"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_9"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_10"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures12">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_EXO_ZMB_Ruined_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_tank"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures13">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_Wolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_AIwolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Tuskan"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SnorkW"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Standart"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Invz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Plot_Mob_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Plot_Mob_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_MONOLIT_ZMB"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures14">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_KrovoSOS_invisible"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Green"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Light"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Cat_Baun_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kaban_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Kaban"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_DogZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_ClearNeboType2_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ClearNeboType2green_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovososType2_Albinos"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Brown"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovososType2_Volkodav"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Volkodav_Ser"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures15">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan_fears"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Forester_aiZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures16">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Brain"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork_Boss"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_White"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SlepDog_Zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_Bronza"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SlepDog_red"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	    <event name="InfectedFidovStalkerCreatures17">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures18">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+        </children>
+    </event>
+    <event name="InfectedFidovStalkerCreatures">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_3"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_4"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_5"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_6"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_7"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_8"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_9"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_10"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures2">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_ZMB_Stalker"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ZMB_Stalker_Top"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Ruined"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Brain"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork_Boss"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_White"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SlepDog_Zmb"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures3">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_Bronza"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SlepDog_red"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_RuinedZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_PseDOG"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_PseDOG_white"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kontroler"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_Kontroler_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures4">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_EXO_ZMB_Ruined_dolg"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures5">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan_fears"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Forester_aiZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures6">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_Wolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_AIwolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Tuskan"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SnorkW"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Standart"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures7">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Invz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Plot_Mob_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Plot_Mob_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_MONOLIT_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_MONOLIT_ZMB2"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_BolotTvar"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS_Dark"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_KrovoSOS_invisible"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures8">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Green"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Light"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Cat_Baun_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kaban_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Kaban"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_DogZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_ClearNeboType2_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ClearNeboType2green_ZMB"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures9">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovososType2_Albinos"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Brown"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovososType2_Volkodav"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Volkodav_Ser"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Izlome"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_WolfZmb_black"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures10">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SidorCap_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Sidor_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Plash_Zombie"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures11">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_3"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_4"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_5"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_6"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_7"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_8"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_9"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_10"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures12">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_EXO_ZMB_Ruined_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_tank"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures13">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_Wolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_AIwolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Tuskan"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SnorkW"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Standart"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Invz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Plot_Mob_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Plot_Mob_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_MONOLIT_ZMB"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures14">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_KrovoSOS_invisible"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Green"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Light"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Cat_Baun_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kaban_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Kaban"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_DogZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_ClearNeboType2_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ClearNeboType2green_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovososType2_Albinos"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Brown"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovososType2_Volkodav"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Volkodav_Ser"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures15">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan_fears"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Forester_aiZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures16">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Brain"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork_Boss"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_White"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SlepDog_Zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_Bronza"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SlepDog_red"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures17">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures18">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures18">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_3"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_4"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_5"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_6"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_7"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_8"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_9"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_10"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures17">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_ZMB_Stalker"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ZMB_Stalker_Top"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Ruined"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Brain"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork_Boss"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_White"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SlepDog_Zmb"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures16">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_Bronza"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SlepDog_red"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_RuinedZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_PseDOG"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_PseDOG_white"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kontroler"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_Kontroler_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures15">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_EXO_ZMB_Ruined_dolg"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures14">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan_fears"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Forester_aiZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures13">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_Wolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_AIwolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Tuskan"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SnorkW"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Standart"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures12">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Invz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Plot_Mob_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Plot_Mob_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_MONOLIT_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_MONOLIT_ZMB2"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_BolotTvar"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS_Dark"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_KrovoSOS_invisible"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures11">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Green"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Light"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Cat_Baun_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kaban_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Kaban"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_DogZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_ClearNeboType2_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ClearNeboType2green_ZMB"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures10">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovososType2_Albinos"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Brown"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovososType2_Volkodav"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Volkodav_Ser"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Izlome"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_WolfZmb_black"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures9">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SidorCap_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Sidor_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Plash_Zombie"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures8">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_3"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_4"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_5"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_6"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_7"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_8"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_9"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_10"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures7">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_EXO_ZMB_Ruined_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_Ruined_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_Ruined_tank"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures6">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_Wolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Tuskan_AIwolf"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Tuskan"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SnorkW"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Standart"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Polter_Invz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Plot_Mob_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Plot_Mob_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_MONOLIT_ZMB"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures5">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovoSOS"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_KrovoSOS_invisible"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Green"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Cat_Baun_Light"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Cat_Baun_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kaban_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Kaban"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_DogZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_ClearNeboType2_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_ClearNeboType2green_ZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovososType2_Albinos"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Brown"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_KrovososType2_Volkodav"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_KrovososType2_Volkodav_Ser"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures4">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_1"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_2"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan_fears"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_black"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_GermanDog_tan"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Forester_aiZMB"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures3">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_ZMB_Stalker_Brain"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Snork_Boss"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_White"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_SlepDog_Zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_SlepDog_Bronza"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_SlepDog_red"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_11"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_12"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_13"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_14"/>
+			<child lootmax="5" lootmin="3" max="0" min="20" type="FS_Zombie_15"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures2">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+        </children>
+    </event>
+	<event name="InfectedFidovStalkerCreatures">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_HIMERA_v2"/>
+			<child lootmax="5" lootmin="3" max="0" min="6" type="FS_HIMERA_v3"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_bandit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_pristine_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_pristine_tank"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_EXO_ZMB_damaged_dolg"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_Svoboda"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_EXO_ZMB_damaged_Monolit"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_EXO_ZMB_damaged_specnaz"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_Forester_zmb"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Forester_zmbAxe"/>
+			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_Eco01_Zombie"/>
+			<child lootmax="5" lootmin="3" max="0" min="3" type="FS_Eco01_Zombie_Pro"/>
+        </children>
+    </event>
